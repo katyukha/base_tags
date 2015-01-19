@@ -4,7 +4,7 @@ Base tags implementation for Odoo
 
 Consists of set of modules to add tags to standard Odoo models.
 
-## At this moment there are modules to add tags for:
+## At this moment there are modules to add tags for models:
 
   - account.invoice model
   - product.product model
