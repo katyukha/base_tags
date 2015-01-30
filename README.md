@@ -44,6 +44,7 @@ To add tags to your model You need to folow folowing simple steps:
     ```xml
     <field name="tag_ids" string="Tag"
            filter_domain="['|',('tag_ids.name','ilike',self),('tag_ids.code','ilike',self)]"/>
+    <field name="no_tag_id" string="No tag"/>  <!-- For invers searching (items that do not contain tag)-->
     ```
    - tree view:
   
