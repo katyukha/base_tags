@@ -40,7 +40,7 @@
             <field name="inherit_id" ref="product.product_normal_form_view"/>
             <field name="arch" type="xml">
                 <data>
-                    <div name="options" position="before">
+                    <div name="options" position="inside">
                         <field name="tag_ids"
                                widget="many2many_tags"
                                placeholder="Tags..."
