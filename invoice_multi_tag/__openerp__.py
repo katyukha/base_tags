@@ -6,7 +6,7 @@
     "summary": "Invoice Tags",
     "category": "Added functionality",
     "depends": [
-        "base_tags",
+        "base_multi_tag",
         "account",
     ],
     "description": """

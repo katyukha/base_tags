@@ -6,7 +6,7 @@
     "summary": "Product Tags",
     "category": "Added functionality",
     "depends": [
-        "base_tags",
+        "base_multi_tag",
         "product",
     ],
     "description": """
