@@ -76,7 +76,7 @@
             <field name="context">{'default_model': 'product.product'}</field>
             <field name="domain">[('model_id.model','=','product.product')]</field>
         </record>
-        <menuitem id="menu_product_tags" parent="base_tags.menu_res_tags_root" name="Product Tags" sequence="30"/>
+        <menuitem id="menu_product_tags" parent="base_multi_tag.menu_res_tags_root" name="Product Tags" sequence="30"/>
         <menuitem id="menu_product_product_tags_id" name="Product Tags"
                   parent="menu_product_tags" sequence="10"
                   action="product_product_tags_view_action"/>

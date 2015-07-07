@@ -18,7 +18,7 @@ Consists of set of modules to add tags to standard Odoo models.
 
 To add tags to your model You need to folow folowing simple steps:
 
-1. Add ```base_tags``` module as dependency for your module
+1. Add ```base__multi_tag``` module as dependency for your module
 
 2. Use inherit from ```"res.tag.mixin"``` to get tags functionality to Your model, like:
 

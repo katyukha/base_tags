@@ -76,7 +76,7 @@
             <field name="domain">[('model_id.model','=','account.invoice')]</field>
         </record>
 
-        <menuitem id="menu_account_tags" parent="base_tags.menu_res_tags_root" name="Account Tags" sequence="20"/>
+        <menuitem id="menu_account_tags" parent="base_multi_tag.menu_res_tags_root" name="Account Tags" sequence="20"/>
         <menuitem id="menu_account_invoice_tags_id" name="Invoice Tags"
                   parent="menu_account_tags" sequence="10"
                   action="account_invoice_tags_view_action"/>
