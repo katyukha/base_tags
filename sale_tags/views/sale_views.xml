@@ -10,7 +10,7 @@
 
         <record model="res.tag.model" id="res_tag_model_sale_order_line">
             <field name="name">Sale Order Line</field>
-            <field name="model">sale.order.lie</field>
+            <field name="model">sale.order.line</field>
         </record>
         <!-- End data -->
 
@@ -72,11 +72,10 @@
                     </xpath>
                     <xpath expr="//form/sheet/notebook//field[@name='order_line']/form//field[@name='tax_id']"
                            position="before">
-                        <h3><field name="tag_ids"
+                        <field name="tag_ids"
                                    widget="many2many_tags"
                                    placeholder="Tags..."
                                    context="{'default_model': 'sale.order.line'}"/>
-                        </h3>
                     </xpath>
                     <xpath expr="//form/sheet/notebook//field[@name='order_line']/tree//field[@name='price_subtotal']"
                            position="after">
