@@ -17,5 +17,4 @@
         'invoice_view.xml',
     ],
     "installable": True,
-    "active": True,
 }

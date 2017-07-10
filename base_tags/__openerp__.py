@@ -22,7 +22,4 @@
         'views/base_action_rule_view.xml',
     ],
     "installable": True,
-    "active": True,
 }
-
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

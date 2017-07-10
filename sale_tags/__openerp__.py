@@ -1,5 +1,5 @@
 {
-    "name": "Product Tags",
+    "name": "Sale Tags",
     "version": "0.0.1",
     "author": "JBM",
     "website": "",
@@ -7,14 +7,16 @@
     "category": "Added functionality",
     "depends": [
         "base_tags",
-        "product",
+        "sale",
     ],
     "description": """
+        Add tags to sale orders
     """,
     "init_xml": [
     ],
     "data": [
-        'product_view.xml',
+        'views/sale_views.xml',
     ],
     "installable": True,
 }
+
