@@ -1,3 +1,10 @@
+# Project moved
+
+See [crnd-inc/generic-addons](https://github.com/crnd-inc/generic-addons) for last version.
+Project was moved there and renamed to `generic_tag`
+There are versions for 9-12.
+Supported last 2-3 versions.
+
 # Generic tags (base_tags)
 
 Base tags implementation for Odoo
