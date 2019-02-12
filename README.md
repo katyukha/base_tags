@@ -4,6 +4,16 @@ Base tags implementation for Odoo
 
 Consists of set of modules to add tags to standard Odoo models.
 
+## Project moved
+
+See [crnd-inc/generic-addons](https://github.com/crnd-inc/generic-addons) for last version.
+
+Project was moved there and renamed to `generic_tag`
+
+There are versions for 9-12.
+
+Supported last 2-3 versions.
+
 ## At this moment there are modules to add tags for models:
 
   - account.invoice model
